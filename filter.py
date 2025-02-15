@@ -20,5 +20,5 @@ for id in ps["Participant"]:
 
 with open("mutual_ids.txt", 'a') as f:
     for id in mutual_ids:
-        f.write(id + "\n")
+        f.write(id + "\n")  
 
