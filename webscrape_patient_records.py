@@ -22,7 +22,7 @@ def main():
             )
         
         data          = r.json().get("aaData")
-        valid_entries.append(get_valid_entries(data))
+        valid_entries += get_valid_entries(data)
         count += DISPLAY_LENGTH
 
     for ct, id in enumerate(valid_entries):
